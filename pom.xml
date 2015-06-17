@@ -11,19 +11,26 @@
 	
 	<!--  All the other informations-->
 
-   <distributionManagement>
-   <repository>
-      <id>nexus-releases</id>
-      <url>http://localhost:9091/nexus/content/repositories/releases</url>
-   </repository>
-</distributionManagement>
-    <scm>
-        <url>scm:git:git@github.com/surajsh3/pocrepo</url>
-        <connection>scm:git:git@github.com/surajsh3/pocrepo.git</connection>
-        <developerConnection>scm:git:git://github.com/surajsh3/pocrepo.git</developerConnection>
-        <tag>HEAD</tag>
-    </scm>
-	
+<distributionManagement>
+ <repository>
+ <id>release</id>
+ <name>Nexus Internal Repository (formerly Archiva)</name>
+ <url>https://localhost:9091/nexus/content/repositories/release/</url>
+ </repository>
+ <snapshotRepository>
+ <id>snapshots</id>
+ <name>Nexus Snapshot Repository </name>
+ <url>https://localhost:9091/nexus/content/repositories/snapshots/</url>
+ </snapshotRepository>
+ </distributionManagement>
+
+	<scm>
+		<url>https://github.com/surajsh3/pocrepo.git</url>
+		<connection>scm:git:git://github.com/surajsh3/pocrepo.git</connection>
+		<developerConnection>scm:git:git@github.com:surajsh3/pocrepo.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
 	
 	<properties>
 		<java-version>1.6</java-version>
