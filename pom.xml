@@ -194,7 +194,7 @@
       <extensions>true</extensions>
       <configuration>
         <serverId>nexus</serverId>
-        <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
+        <nexusUrl>http://localhost:9091/nexus/</nexusUrl>
       </configuration>
     </plugin>
 </plugins>
