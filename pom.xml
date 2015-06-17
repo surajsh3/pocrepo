@@ -16,11 +16,11 @@
      <distributionManagement>
         <repository>
             <id>ec2-arti</id>
-    <url>https://localhost:9091/nexus/content/repositories/release/</url>
+			<url>http://localhost:9091/nexus/content/repositories/release/</url>
         </repository>
         <snapshotRepository>
             <id>ec2-arti</id>
-          <url>https://localhost:9091/nexus/content/repositories/snapshots/</url>
+			<url>http://localhost:9091/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 	<scm>
