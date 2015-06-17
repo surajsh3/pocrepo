@@ -192,6 +192,7 @@
       </configuration>
     </plugin>
 </plugins>
+</build>
 <profiles>
    <profile>
       <id>releases</id>
@@ -220,5 +221,4 @@
       </build>
    </profile>
 </profiles>
-    </build>
 </project>
