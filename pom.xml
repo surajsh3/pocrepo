@@ -23,9 +23,8 @@
  <url>https://localhost:9091/nexus/content/repositories/snapshots/</url>
  </snapshotRepository>
  </distributionManagement>
-
 	<scm>
-		<url>https://github.com/surajsh3/pocrepo.git</url>
+		<url>git@github.com:surajsh3/pocrepo.git</url>
 		<connection>scm:git:git://github.com/surajsh3/pocrepo.git</connection>
 		<developerConnection>scm:git:git@github.com:surajsh3/pocrepo.git</developerConnection>
 		<tag>HEAD</tag>
