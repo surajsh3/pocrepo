@@ -7,6 +7,23 @@
 	<name>tutorial1</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
+	
+	
+	<!--  All the other informations-->
+
+    <distributionManagement>
+        <repository>
+            <id>local-repository</id>
+            <url>file:///C:\.m2\repository</url>
+        </repository>
+    </distributionManagement>
+    <scm>
+        <url>https://github.com/surajsh3/pocrepo</url>
+        <connection>scm:git:ssh://git@github.com/surajsh3/pocrepo.git</connection>
+        <developerConnection>scm:git:ssh://github.com/surajsh3/pocrepo.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+	
 	<properties>
 		<java-version>1.6</java-version>
 		<org.springframework-version>3.1.1.RELEASE</org.springframework-version>
